@@ -6,9 +6,6 @@ class Item {
     static belongsTo = [categoria:Categoria]
 
     static constraints = {
-    }
-
-    static constraints = {
         nome nullable:false, blank:false, maxSize:128
         categoria nullable:false
     }
